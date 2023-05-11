@@ -1,0 +1,784 @@
+{
+    "energy": [
+        {
+            "nr": "1.1.1",
+            "category": "Erzeugungsanlage",
+            "criteria": "Installierte Nettonennleistung (elektrisch oder direkt mit Wärmeauskopplung verbundene elektrische Wirkleistung bei Wärmenennleistung ohne Kondensationsanteil) in MW oder",
+            "treshold": "104"
+        },
+        {
+            "nr": "1.1.2",
+            "category": "Anlage oder System zur Steuerung/Bündelung elektrischer Leistung",
+            "criteria": "Installierte Nettonennleistung (elektrisch) in MW oder",
+            "treshold": "104"
+        },
+        {
+            "nr": "1.2.1",
+            "category": "Übertragungsnetz",
+            "criteria": "Durch Letztverbraucher und Weiterverteiler entnommene Jahresarbeit in GWh/Jahr",
+            "treshold": "3.700"
+        },
+        {
+            "nr": "1.3.1",
+            "category": "Stromverteilernetz",
+            "criteria": "Durch Letztverbraucher und Weiterverteiler entnommene Jahresarbeit in GWh/Jahr",
+            "treshold": "3.700"
+        },
+        {
+            "nr": "1.4.1",
+            "category": "Zentrale Anlage oder System für den Stromhandel",
+            "criteria": "Abgewickeltes Handelsvolumen in  TWh/Jahr",
+            "treshold": "3,7"
+        },
+        {
+            "nr": "2.1.1",
+            "category": "Gasförderanlage",
+            "criteria": "Energie des geförderten Gases in  GWh/Jahr",
+            "treshold": "5.190"
+        },
+        {
+            "nr": "2.1.2",
+            "category": "Anlage zur zentralen standortübergreifenden Steuerung",
+            "criteria": "Energie des geförderten Gases in  GWh/Jahr",
+            "treshold": "5.190"
+        },
+        {
+            "nr": "2.2.1",
+            "category": "Fernleitungsnetz",
+            "criteria": "Durch Letztverbraucher und Weiterverteiler entnommene Jahresarbeit in GWh/Jahr",
+            "treshold": "5.190"
+        },
+        {
+            "nr": "2.2.2",
+            "category": "Gasgrenzübergabestelle",
+            "criteria": "Durchgeleitete Arbeit in GWh/Jahr",
+            "treshold": "5.190"
+        },
+        {
+            "nr": "2.2.3",
+            "category": "Gasspeicher",
+            "criteria": "Entnommene Arbeit in GWh/Jahr",
+            "treshold": "5.190"
+        },
+        {
+            "nr": "",
+            "category": "Gasverteilernetz",
+            "criteria": "Entnommene Arbeit in GWh/Jahr",
+            "treshold": "5.190"
+        },
+        {
+            "nr": "2.4.1",
+            "category": "Gashandelssystem",
+            "criteria": "Energie der gehandelten Gasmengen oder ‑kapazitäten in GWh/Jahr",
+            "treshold": "5.190"
+        },
+        {
+            "nr": "3.1.1",
+            "category": "Ölförderanlage",
+            "criteria": "Gefördertes Erdöl in Tonnen/Jahr",
+            "treshold": "4.400.000"
+        },
+        {
+            "nr": "3.1.2",
+            "category": "Raffinerie",
+            "criteria": "Erzeugter Kraftstoff in Tonnen/Jahr oder",
+            "treshold": "420.000 (≈ 420 Millionen Liter)"
+        },
+        {
+            "nr": "3.1.3",
+            "category": "Anlage zur zentralen standortübergreifenden Steuerung",
+            "criteria": "Gefördertes Rohöl in Tonnen/Jahr oder",
+            "treshold": "4.400.000"
+        },
+        {
+            "nr": "3.2.1",
+            "category": "Mineralölfernleitung",
+            "criteria": "Transportierte entnommene Rohölmenge in Tonnen/Jahr oder",
+            "treshold": "4.400.000"
+        },
+        {
+            "nr": "3.2.2",
+            "category": "Erdöl- und Erdölproduktenlager",
+            "criteria": "Umgeschlagenes Rohöl in Tonnen/Jahr oder",
+            "treshold": "4.400.000"
+        },
+        {
+            "nr": "3.2.3",
+            "category": "Anlage zur zentralen standortübergreifenden Steuerung",
+            "criteria": "Gesamtmenge des transportierten Rohöls und der transportierten Ölprodukte in Tonnen/Jahr oder",
+            "treshold": "4.400.000"
+        },
+        {
+            "nr": "3.3.1",
+            "category": "Anlage oder System von Aggregatoren zum Vertrieb von Kraftstoff und Heizöl",
+            "criteria": "Verteilter Kraftstoff in Tonnen/Jahr oder",
+            "treshold": "420.000"
+        },
+        {
+            "nr": "3.3.2",
+            "category": "Tankstellennetz",
+            "criteria": "Verteilter Kraftstoff in Tonnen/Jahr oder",
+            "treshold": "420.000"
+        },
+        {
+            "nr": "3.3.3",
+            "category": "Anlage zur zentralen standortübergreifenden Steuerung",
+            "criteria": "Verteilter Kraftstoff in Tonnen/Jahr oder",
+            "treshold": "420.000"
+        },
+        {
+            "nr": "3.4.1",
+            "category": "Anlagen oder Systeme zur zentralen kommerziellen Steuerung",
+            "criteria": "Abgewickeltes Erdöl in Tonnen/Jahr oder",
+            "treshold": "4.400.000"
+        },
+        {
+            "nr": "4.1.1",
+            "category": "Heizwerk",
+            "criteria": "Ausgeleitete Wärmeenergie in GWh/Jahr",
+            "treshold": "2.300"
+        },
+        {
+            "nr": "4.1.2",
+            "category": "Heizkraftwerk",
+            "criteria": "Ausgeleitete Wärmeenergie in GWh/Jahr",
+            "treshold": "2.300"
+        },
+        {
+            "nr": "4.2.1",
+            "category": "Fernwärmenetz",
+            "criteria": "Angeschlossene Haushalte",
+            "treshold": "250.000"
+        },
+        {
+            "nr": "4.3.1",
+            "category": "Anlage zur zentralen standortübergreifenden Steuerung",
+            "criteria": "Angeschlossene Haushalte oder",
+            "treshold": "250.000"
+        }
+    ],
+    "water": [
+        {
+            "nr": "1.1.1",
+            "category": "Gewinnungsanlage",
+            "criteria": "Gewonnene Wassermenge in Millionen m 3 /Jahr",
+            "treshold": "22"
+        },
+        {
+            "nr": "1.2.1",
+            "category": "Aufbereitungsanlage (Wasserwerk)",
+            "criteria": "Aufbereitete Trinkwassermenge in Millionen m 3 /Jahr",
+            "treshold": "22"
+        },
+        {
+            "nr": "1.3.1",
+            "category": "Wasserverteilungssystem",
+            "criteria": "Verteilte Wassermenge in Millionen m 3 /Jahr",
+            "treshold": "22"
+        },
+        {
+            "nr": "1.4.1",
+            "category": "Leitzentrale",
+            "criteria": "Von den gesteuerten/überwachten Anlagen gewonnene, transportierte oder aufbereitete Wassermenge in Millionen m 3 /Jahr",
+            "treshold": "22"
+        },
+        {
+            "nr": "2.1.1",
+            "category": "Kanalisation",
+            "criteria": "Angeschlossene Einwohner",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "2.2.1",
+            "category": "Kläranlage",
+            "criteria": "Ausbaugröße in Einwohnerwerten",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "2.3.1",
+            "category": "Leitzentrale",
+            "criteria": "Ausbaugrößen der Anlagen in Einwohnerwerten oder angeschlossene Einwohner der gesteuerten oder überwachten Anlagen",
+            "treshold": "500.000"
+        }
+    ],
+    "food": [
+        {
+            "nr": "1.1.1",
+            "category": "Anlage oder System zur Herstellung von Lebensmitteln",
+            "criteria": "Hergestellte Lebensmittel außer Getränke in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.1.2",
+            "category": "Anlage oder System zur Behandlung von Lebensmitteln",
+            "criteria": "Behandelte Lebensmittel außer Getränke in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.1.3",
+            "category": "Anlage oder System zur Distribution von Lebensmitteln",
+            "criteria": "Umgeschlagene Lebensmittel außer Getränke in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.1.4",
+            "category": "Anlage oder System zur zentralen Steuerung oder Überwachung",
+            "criteria": "Hergestellte, behandelte, umgeschlagene, bestellte oder in Verkehr gebrachte Lebensmittel außer Getränke aller durch die Anlage oder das System gesteuerten oder überwachten Anlagen in  Tonnen/Jahr  oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.2.1",
+            "category": "Anlage oder System zur Behandlung von Lebensmitteln",
+            "criteria": "Behandelte Lebensmittel außer Getränke in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.2.2",
+            "category": "Anlage oder System zur Distribution von Lebensmitteln",
+            "criteria": "Umgeschlagene Lebensmittel außer Getränke in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.2.3",
+            "category": "Anlage oder System zur Bestellung von Lebensmitteln",
+            "criteria": "Bestellte Lebensmittel außer Getränke in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.2.4",
+            "category": "Anlage oder System zum Inverkehrbringen von Lebensmitteln",
+            "criteria": "In Verkehr gebrachte Lebensmittel außer Getränke in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        },
+        {
+            "nr": "1.2.5",
+            "category": "Anlage oder System zur zentralen Steuerung oder Überwachung",
+            "criteria": "Behandelte, umgeschlagene, bestellte oder in Verkehr gebrachte Lebensmittel außer Getränke aller durch die Anlage oder das System gesteuerten oder überwachten Anlagen in Tonnen/Jahr oder",
+            "treshold": "434.500"
+        }
+    ],
+    "it": [
+        {
+            "nr": "1.1.1",
+            "category": "Zugangsnetz",
+            "criteria": "Teilnehmeranschlüsse des Zugangsnetzes nach § 3 Nummer 58 TKG",
+            "treshold": "100.000"
+        },
+        {
+            "nr": "1.2.1",
+            "category": "Übertragungsnetz",
+            "criteria": "Vertragspartner des jeweiligen Dienstes",
+            "treshold": "100.000"
+        },
+        {
+            "nr": "1.3.1",
+            "category": "IXP",
+            "criteria": "Anzahl angeschlossener autonomer Systeme (Jahresdurchschnitt)",
+            "treshold": "100"
+        },
+        {
+            "nr": "1.4.1",
+            "category": "DNS-Resolver",
+            "criteria": "Anzahl der Vertragspartner des Zugangsnetzes, in dem der DNS-Resolver betrieben wird",
+            "treshold": "100.000"
+        },
+        {
+            "nr": "1.4.2",
+            "category": "Autoritativer DNS-Server",
+            "criteria": "Anzahl der Domains, für die der Server autoritativ ist oder die aus der Zone delegiert werden",
+            "treshold": "250.000"
+        },
+        {
+            "nr": "1.4.3",
+            "category": "Top-Level-Domain-Name-Registry",
+            "criteria": "Anzahl der Domains, die verwaltet oder betrieben werden",
+            "treshold": "250.000"
+        },
+        {
+            "nr": "2.1.1",
+            "category": "Rechenzentrum (Housing)",
+            "criteria": "Vertraglich vereinbarte Leistung in MW",
+            "treshold": "3,5"
+        },
+        {
+            "nr": "2.2.1",
+            "category": "Serverfarm (Hosting)",
+            "criteria": "Anzahl der für Nutzer betriebenen physischen Instanzen (Jahresdurchschnitt)",
+            "treshold": "10.000"
+        },
+        {
+            "nr": "2.2.2",
+            "category": "Content Delivery Network",
+            "criteria": "Ausgeliefertes Datenvolumen (in TByte/Jahr)",
+            "treshold": "75.000"
+        },
+        {
+            "nr": "2.3.1",
+            "category": "Anlage zur Erbringung von Vertrauensdiensten",
+            "criteria": "Anzahl der ausgegebenen qualifizierten Zertifikate oder",
+            "treshold": "500.000"
+        }
+    ],
+    "health": [
+        {
+            "nr": "1.1",
+            "category": "Krankenhaus",
+            "criteria": "Vollstationäre Fallzahl/Jahr",
+            "treshold": "30.000"
+        },
+        {
+            "nr": "2.1.1",
+            "category": "Produktionsstätte",
+            "criteria": "Umsatz in Euro/Jahr",
+            "treshold": "90.680.000"
+        },
+        {
+            "nr": "2.2.1",
+            "category": "Abgabestelle",
+            "criteria": "Umsatz in Euro/Jahr",
+            "treshold": "90.680.000"
+        },
+        {
+            "nr": "3.1.1",
+            "category": "Produktionsstätte",
+            "criteria": "In Verkehr gebrachte Packungen/Jahr",
+            "treshold": "4.650.000"
+        },
+        {
+            "nr": "3.1.2",
+            "category": "Blut- oder Plasmaspendensteuerungssystem",
+            "criteria": "Hergestellte oder in Verkehr gebrachte Produkte/Jahr",
+            "treshold": "34.000"
+        },
+        {
+            "nr": "3.2.1",
+            "category": "Betriebs- und Lagerraum",
+            "criteria": "Umgeschlagene Packungen/Jahr",
+            "treshold": "4.650.000"
+        },
+        {
+            "nr": "3.2.2",
+            "category": "Anlage oder System zum Vertrieb verschreibungspflichtiger Arzneimittel",
+            "criteria": "Transportierte Packungen/Jahr",
+            "treshold": "4.650.000"
+        },
+        {
+            "nr": "3.3.1",
+            "category": "Apotheke",
+            "criteria": "Abgegebene Packungen/Jahr",
+            "treshold": "4.650.000"
+        },
+        {
+            "nr": "4.1",
+            "category": "Labor",
+            "criteria": "Anzahl der Aufträge/Jahr oder",
+            "treshold": "1.500.000"
+        },
+        {
+            "nr": "4.2",
+            "category": "Laborinformationsverbund",
+            "criteria": "kumulierte Anzahl der Aufträge im  Verbund/Jahr",
+            "treshold": "1.500.000"
+        }
+    ],
+    "finance": [
+        {
+            "nr": "1.1.1",
+            "category": "Autorisierungssystem",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "15.000.000"
+        },
+        {
+            "nr": "1.1.2",
+            "category": "System zur Anbindung an ein Autorisierungssystem aus Sicht des Geldautomatenbetreibers",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "15.000.000"
+        },
+        {
+            "nr": "1.2.1",
+            "category": "System zur Aufbereitung durch den Geldautomatenbetreiber",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "15.000.000"
+        },
+        {
+            "nr": "1.2.2",
+            "category": "System zur Anbindung an ein Interbanken-Zahlungsverkehrssystem (Clearing und Settlement)",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "18.000.000"
+        },
+        {
+            "nr": "1.2.3",
+            "category": "Clearing-System",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "18.000.000"
+        },
+        {
+            "nr": "1.2.4",
+            "category": "Settlement-System",
+            "criteria": "Anzahl der Transaktionen des zugehörigen Clearing-Systems/Jahr",
+            "treshold": "18.000.000"
+        },
+        {
+            "nr": "1.3.1",
+            "category": "Kontoführungssystem",
+            "criteria": "Anzahl der in diesem System bei der Erbringung einer kritischen Dienstleistung verbuchten Transaktionen",
+            "treshold": "15.000.000"
+        },
+        {
+            "nr": "1.4.1",
+            "category": "Cash Center",
+            "criteria": "Anzahl bearbeiteter Banknoten/Jahr",
+            "treshold": "93.500.000"
+        },
+        {
+            "nr": "1.4.2",
+            "category": "IT-System für das Cash Management",
+            "criteria": "Anzahl bearbeiteter Banknoten/Jahr",
+            "treshold": "93.500.000"
+        },
+        {
+            "nr": "2.1.1",
+            "category": "Autorisierungssystem",
+            "criteria": "Anzahl der in diesem System bei der Erbringung einer kritischen Dienstleistung autorisierten Transaktionen",
+            "treshold": "21.500.000"
+        },
+        {
+            "nr": "2.1.2",
+            "category": "System zur Anbindung an ein Autorisierungssystem aus Sicht des Terminalbetreibers",
+            "criteria": "Anzahl der in diesem System bei der Erbringung einer kritischen Dienstleistung autorisierten Transaktionen",
+            "treshold": "21.500.000"
+        },
+        {
+            "nr": "2.2.1",
+            "category": "System zur Aufbereitung durch den POS-Terminalbetreiber",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "21.500.000"
+        },
+        {
+            "nr": "2.2.2",
+            "category": "System zur Annahme der POS-Transaktionsdaten beim Zahlungsdienstleister des Zahlungsempfängers",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "21.500.000"
+        },
+        {
+            "nr": "2.2.3",
+            "category": "System zur Anbindung an ein Interbanken-Zahlungsverkehrssystem (Clearing und Settlement)",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "18.000.000"
+        },
+        {
+            "nr": "2.2.4",
+            "category": "Clearing-System",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "18.000.000"
+        },
+        {
+            "nr": "2.2.5",
+            "category": "Settlement-System",
+            "criteria": "Anzahl der Transaktionen des zugehörigen Clearing-Systems/Jahr",
+            "treshold": "18.000.000"
+        },
+        {
+            "nr": "2.3.1",
+            "category": "Kontoführungssystem",
+            "criteria": "Anzahl der in diesem System bei der Erbringung der jeweiligen kritischen Dienstleistung verbuchten Transaktionen",
+            "treshold": "21.500.000"
+        },
+        {
+            "nr": "3.1.1",
+            "category": "System zur Annahme einer Überweisung oder Lastschrift",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "100.000.000"
+        },
+        {
+            "nr": "3.2.1",
+            "category": "System zur Anbindung an ein Interbanken-Zahlungsverkehrssystem (Clearing und Settlement)",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "100.000.000"
+        },
+        {
+            "nr": "3.2.2",
+            "category": "Clearing-System",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "100.000.000"
+        },
+        {
+            "nr": "3.2.3",
+            "category": "Settlement-System",
+            "criteria": "Anzahl der Transaktionen des zugehörigen Clearing-Systems/Jahr",
+            "treshold": "100.000.000"
+        },
+        {
+            "nr": "3.3.1",
+            "category": "Kontoführungssystem",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "100.000.000"
+        },
+        {
+            "nr": "4.1.1",
+            "category": "System einer Clearingstelle oder zentralen Gegenpartei zur Verrechnung von Wertpapier- und Derivatgeschäften",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "850.000"
+        },
+        {
+            "nr": "4.1.2",
+            "category": "System zur Anbindung für die Verrechnung und Verbuchung von Wertpapier- und Derivatgeschäften",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "850.000"
+        },
+        {
+            "nr": "4.2.1",
+            "category": "Wertpapier-Settlement-System",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "850.000"
+        },
+        {
+            "nr": "4.2.2",
+            "category": "Depotführungssystem eines Finanzmarktinfrastrukturbetreibers",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "850.000"
+        },
+        {
+            "nr": "4.2.3",
+            "category": "System eines Zentralverwahrers",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "850.000"
+        },
+        {
+            "nr": "4.3.1",
+            "category": "System zur Aufbereitung der Zahlungsanweisung",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "850.000"
+        },
+        {
+            "nr": "4.4.1",
+            "category": "System für das Erzeugen von Aufträgen zum Handel von Wertpapieren und Derivaten und Weiterleiten an einen Handelsplatz",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "6.750.000"
+        },
+        {
+            "nr": "4.5.1",
+            "category": "System eines Handelsplatzes",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "850.000"
+        },
+        {
+            "nr": "4.6.1",
+            "category": "Sonstiges Depotführungssystem",
+            "criteria": "Anzahl der Transaktionen/Jahr",
+            "treshold": "6.750.000"
+        },
+        {
+            "nr": "5.1.1",
+            "category": "Vertragsverwaltungssystem",
+            "criteria": "Leistungsfälle Lebensversicherung/Jahr oder",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "5.1.2",
+            "category": "Leistungssystem",
+            "criteria": "Leistungsfälle Lebensversicherung/Jahr oder",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "5.1.3",
+            "category": "Schadensystem (Komposit)",
+            "criteria": "Schadensfälle Kompositversicherung/Jahr",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "5.1.4",
+            "category": "Auszahlungssystem",
+            "criteria": "Leistungsfälle Lebensversicherung/Jahr oder",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "5.2.1",
+            "category": "Verwaltungs- und Zahlungssystem der gesetzlichen Kranken- und Pflegeversicherung",
+            "criteria": "Anzahl der Versicherten",
+            "treshold": "3.000.000"
+        },
+        {
+            "nr": "5.2.2",
+            "category": "Leistungssystem",
+            "criteria": "Leistungsfälle Sozialversicherungsträger der gesetzlichen Unfall- und Arbeitslosenversicherung/Jahr oder",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "5.2.3",
+            "category": "Auszahlungssystem",
+            "criteria": "Leistungsfälle Sozialversicherungsträger der gesetzlichen Unfall- und Arbeitslosenversicherung/Jahr oder",
+            "treshold": "500.000"
+        }
+    ],
+    "transport": [
+        {
+            "nr": "1.1.1",
+            "category": "Anlage oder System zur Passagierabfertigung an Flugplätzen",
+            "criteria": "Anzahl der Passagiere/Jahr",
+            "treshold": "20.000.000"
+        },
+        {
+            "nr": "1.1.2",
+            "category": "Anlage oder System zur Frachtabfertigung an Flugplätzen",
+            "criteria": "Gütermenge in Tonnen/Jahr",
+            "treshold": "750.000"
+        },
+        {
+            "nr": "1.1.3",
+            "category": "Infrastrukturbetrieb eines Flugplatzes",
+            "criteria": "Anzahl der Passagiere/Jahr oder",
+            "treshold": "20.000.000"
+        },
+        {
+            "nr": "1.1.4",
+            "category": "Anlage zur Erbringung von Flugsicherungsdiensten",
+            "criteria": "Anzahl der Flugbewegungen/Jahr",
+            "treshold": "17.500"
+        },
+        {
+            "nr": "1.1.5",
+            "category": "Verkehrszentrale einer Fluggesellschaft",
+            "criteria": "Anzahl der Passagiere/Jahr oder",
+            "treshold": "20.000.000"
+        },
+        {
+            "nr": "1.1.6",
+            "category": "Flughafenleitungsorgan",
+            "criteria": "Anzahl der Passagiere/Jahr oder",
+            "treshold": "20.000.000"
+        },
+        {
+            "nr": "1.2.1",
+            "category": "Personenbahnhof der Eisenbahn",
+            "criteria": "Bahnhofskategorie",
+            "treshold": "jeweils höchste Kategorie"
+        },
+        {
+            "nr": "1.2.2",
+            "category": "Güterbahnhof",
+            "criteria": "Anzahl ausgehender Züge/Jahr",
+            "treshold": "23.000"
+        },
+        {
+            "nr": "1.2.3",
+            "category": "Zugbildungsbahnhof",
+            "criteria": "Anzahl gebildete Züge/Jahr",
+            "treshold": "23.000"
+        },
+        {
+            "nr": "1.2.4",
+            "category": "Schienennetz und Stellwerke der Eisenbahn",
+            "criteria": "Einordnung des Schienennetzes nach der Verordnung (EU) Nr. 1315/2013 des Europäischen Parlaments und des Rats vom 11. Dezember 2013 über Leitlinien der Union für den Aufbau eines transeuropäischen Verkehrsnetzes und zur Aufhebung des Beschlusses Nr. 661/2010/EU (ABl. L 348 vom 20.12.2013, S. 1), die zuletzt durch die Delegierte Verordnung (EU) 2019/254 (ABl. L 43 vom 14.2.2019, S. 1) geändert worden ist",
+            "treshold": "Deutscher Teil des Kernnetzes"
+        },
+        {
+            "nr": "1.2.5",
+            "category": "Verkehrssteuerungs- und Leitsystem der Eisenbahn",
+            "criteria": "Einordnung des zu dem System gehörenden Schienennetzes nach der Verordnung (EU) Nr. 1315/2013",
+            "treshold": "Deutscher Teil des Kernnetzes"
+        },
+        {
+            "nr": "1.2.6",
+            "category": "Leitzentrale der Eisenbahn",
+            "criteria": "Disponierte Transportleistung (Personenverkehr) in Zugkilometer/Jahr pro Netz/Teilnetz oder",
+            "treshold": "8.200.000"
+        },
+        {
+            "nr": "1.3.1",
+            "category": "Anlage oder System zum Betrieb von Bundeswasserstraßen",
+            "criteria": "Güterverkehrsdichte in Tonnen",
+            "treshold": "17.000.000"
+        },
+        {
+            "nr": "1.3.2",
+            "category": "Verkehrssteuerungs- und Leitsystem der See- und Binnenschifffahrt",
+            "criteria": "Güterverkehrsdichte in Tonnen",
+            "treshold": "17.000.000"
+        },
+        {
+            "nr": "1.3.3",
+            "category": "Hafenleitungsorgan (nur Güterverkehr)",
+            "criteria": "Gesamtmenge der bereitgestellten, verteilten, gelagerten oder umgeschlagenen Güter im Zuständigkeitsbereich des Hafens in Tonnen/Jahr",
+            "treshold": "50.000.000"
+        },
+        {
+            "nr": "1.3.4",
+            "category": "Hafeninformationssystem",
+            "criteria": "Gesamtmenge der bereitgestellten, verteilten, gelagerten oder umgeschlagenen Güter im Zuständigkeitsbereich des Hafens, in dem die Anlage oder das System eingesetzt wird, in Tonnen/Jahr",
+            "treshold": "50.000.000"
+        },
+        {
+            "nr": "1.3.5",
+            "category": "Umschlaganlage in See- und Binnenhäfen",
+            "criteria": "Abgefertigte Fracht in Tonnen/Jahr",
+            "treshold": "3.270.000"
+        },
+        {
+            "nr": "1.3.6",
+            "category": "Leitzentrale von Betreibern und Verkehrsunternehmen der Seeschifffahrt",
+            "criteria": "Disponierte Frachtmenge der Seeschiffe des Betreibers einschließlich gecharterter Schiffe in Tonnen/Jahr",
+            "treshold": "1.875.000"
+        },
+        {
+            "nr": "1.3.7",
+            "category": "Leitzentrale von Betreibern und Verkehrsunternehmen der Binnenschifffahrt (nur Güterverkehr)",
+            "criteria": "Disponierte Transportleistung der Binnenschiffe des Betreibers einschließlich gecharterter Schiffe in Tonnenkilometer/Jahr",
+            "treshold": "345.500.000"
+        },
+        {
+            "nr": "1.4.1",
+            "category": "Verkehrssteuerungs- und Leitsystem",
+            "criteria": "Art der zu dem Verkehrssteuerungs- und Leitsystem gehörenden Bundesfernstraßen",
+            "treshold": "Bundesautobahn"
+        },
+        {
+            "nr": "1.4.2",
+            "category": "Verkehrssteuerungs- und Leitsystem im kommunalen Straßenverkehr",
+            "criteria": "Anzahl Einwohner der versorgten Stadt",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "1.4.3",
+            "category": "Intelligentes Verkehrssystem",
+            "criteria": "Anzahl angeschlossener Nutzer oder durchschnittlich im Versorgungsgebiet versorgter Nutzer",
+            "treshold": "500.000"
+        },
+        {
+            "nr": "1.5.1",
+            "category": "Schienennetz und Stellwerke des öffentlichen Straßenpersonenverkehrs (ÖSPV)",
+            "criteria": "Anzahl unternehmensbezogene Fahrgastfahrten/Jahr",
+            "treshold": "125.000.000"
+        },
+        {
+            "nr": "1.5.2",
+            "category": "Leitzentrale des ÖSPV",
+            "criteria": "Anzahl unternehmensbezogene Fahrgastfahrten/Jahr",
+            "treshold": "125.000.000"
+        },
+        {
+            "nr": "1.6.1",
+            "category": "Anlage oder System zum Betrieb eines Logistikzentrums in den Segmenten Massengut-, Ladungs-, Stückgut-, Kontrakt-, See- oder Luftfrachtlogistik",
+            "criteria": "Transportmengen im Im- und Export, sowie im Binnenverkehr in Tonnen/Jahr, soweit diese im Unternehmen erfasst werden, im Übrigen",
+            "treshold": "17.550.000"
+        },
+        {
+            "nr": "1.6.2",
+            "category": "Anlage oder IT-System zur Logistiksteuerung oder -verwaltung in den Segmenten Massengut, Ladungsverkehr, Stückgut, Kontraktlogistik sowie See- und Luftfracht",
+            "criteria": "Gesamtmenge bereitgestellte, verteilte, gelagerte, bearbeitete oder umgeschlagene Transporte im Im- und Export, sowie im Binnenverkehr in Tonnen/Jahr, soweit diese im Unternehmen erfasst werden, im Übrigen",
+            "treshold": "17.550.000"
+        },
+        {
+            "nr": "1.7.1",
+            "category": "Anlage zur Wettervorhersage, zur Gezeitenvorhersage oder zur Wasserstandsvorhersage",
+            "criteria": "Einsatz der Anlage zur Erbringung von Wettervorhersagen insbesondere im Kürzestfristbereich (bis zu 12 Stunden) zur Erfüllung der gesetzlichen Aufgaben nach § 4 Absatz 1 des Gesetzes über den Deutschen Wetterdienst oder",
+            "treshold": "zur Aufgabenerfüllung eingesetzte Anlage"
+        },
+        {
+            "nr": "1.7.2",
+            "category": "Bodenstation eines Satellitennavigationssystems",
+            "criteria": "Einordnung der Anlage nach der Verordnung (EU) Nr. 1285/2013",
+            "treshold": "Bodenstationen"
+        }
+    ]
+}
